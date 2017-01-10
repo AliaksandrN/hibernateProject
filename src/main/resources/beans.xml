@@ -52,5 +52,147 @@
 		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
 		<property name="sessionFactory" ref="hibernateSessionFactory" />
 	</bean>
+	
+		<bean id="train1" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="abc123" />
+		<property name="departurePoint" value="Warszawa" />
+		<property name="arrivalPoint" value="Gdansk" />
+	</bean>
+	
+	<bean id="train2" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="xyz321" />
+		<property name="departurePoint" value="Sopot" />
+		<property name="arrivalPoint" value="Tczew" />
+	</bean>
+	
+	<bean id="train3" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="www911" />
+		<property name="departurePoint" value="Krakow" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>
+	
+	<bean id="train4" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="www944" />
+		<property name="departurePoint" value="Krakow" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>
+	
+	<bean id="train5" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="qwe944" />
+		<property name="departurePoint" value="Gizycko" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>
+	
+	<bean id="train6" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="nul934" />
+		<property name="departurePoint" value="Gizycko" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>	
 
+	<bean id="train7" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="gui843" />
+		<property name="departurePoint" value="Gizycko" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>
+	
+	<bean id="train8" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="trn888" />
+		<property name="departurePoint" value="Gizycko" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>
+	
+	<bean id="train9" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="gui908" />
+		<property name="departurePoint" value="Gizycko" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>
+	
+	<bean id="train10" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="gcc901" />
+		<property name="departurePoint" value="Gizycko" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>
+	
+	<bean id="train11" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="abn801" />
+		<property name="departurePoint" value="Gizycko" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>
+	
+	<bean id="train12" class="com.example.shdemo.domain.Train">
+		<property name="trainNum" value="abn705" />
+		<property name="departurePoint" value="Gizycko" />
+		<property name="arrivalPoint" value="Bialystok" />
+	</bean>	
+	<bean id="ticket1" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab111"/>
+		<property name="firstClassPrice" value="11.11" />
+		<property name="secondClassPrice" value="22.22" />
+	</bean>
+	
+	<bean id="ticket2" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab112"/>
+		<property name="firstClassPrice" value="5.55" />
+		<property name="secondClassPrice" value="10.00" />
+	</bean>
+	
+	<bean id="ticket3" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab113"/>
+		<property name="firstClassPrice" value="44.44" />
+		<property name="secondClassPrice" value="88.88" />
+	</bean>
+	
+	<bean id="ticket4" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab114"/>
+		<property name="firstClassPrice" value="55.44" />
+		<property name="secondClassPrice" value="100.88" />
+	</bean>
+
+	<bean id="ticket5" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab115"/>
+		<property name="firstClassPrice" value="44.44" />
+		<property name="secondClassPrice" value="88.88" />
+	</bean>
+	
+	<bean id="ticket6" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab116"/>
+		<property name="firstClassPrice" value="98.98" />
+		<property name="secondClassPrice" value="108.98" />
+	</bean>
+	
+	<bean id="ticket7" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab117"/>
+		<property name="firstClassPrice" value="44.44" />
+		<property name="secondClassPrice" value="88.88" />
+	</bean>
+	
+	<bean id="ticket8" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab118"/>
+		<property name="firstClassPrice" value="98.98" />
+		<property name="secondClassPrice" value="108.98" />
+	</bean>
+	
+	<bean id="ticket9" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab119"/>
+		<property name="firstClassPrice" value="98.98" />
+		<property name="secondClassPrice" value="108.98" />
+	</bean>
+	
+	<bean id="ticket10" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab120"/>
+		<property name="firstClassPrice" value="98.98" />
+		<property name="secondClassPrice" value="108.98" />
+	</bean>
+	
+		<bean id="ticket11" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab121"/>
+		<property name="firstClassPrice" value="98.98" />
+		<property name="secondClassPrice" value="108.98" />
+	</bean>
+	
+	<bean id="ticket12" class="com.example.shdemo.domain.Ticket">
+		<property name="ticketNum" value="ab122"/>
+		<property name="firstClassPrice" value="98.98" />
+		<property name="secondClassPrice" value="108.98" />
+	</bean>							
 </beans>
